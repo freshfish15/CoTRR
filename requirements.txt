@@ -1,0 +1,8 @@
+torch
+torchvision
+tqdm
+numpy
+pandas
+openai
+open_clip
+Pillow
