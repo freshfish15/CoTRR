@@ -43,14 +43,14 @@ CoTRR establishes a new state-of-the-art across five benchmark datasets and thre
 
 ## Setup
 
-## 1. Clone Repository
+### 1. Clone Repository
 
 ```bash
 git clone [https://github.com/freshfish15/CoTRR.git](https://github.com/freshfish15/CoTRR.git)
 cd CoTRR
 ```
 
-## 2. Install Dependencies
+### 2. Install Dependencies
 
 We recommend using Conda for environment management.
 
@@ -63,12 +63,12 @@ conda activate cotrr
 pip install -r requirements.txt
 ```
 
-## 3. Configure API Keys
+### 3. Configure API Keys
 
 API keys and model configurations are located in `models/configs/config.py`. Replace the placeholder values with your credentials.  
 **Tip:** For security, use environment variables to manage sensitive keys.
 
-## 4. Download Datasets
+### 4. Download Datasets
 
 Create a top-level `datasets/` directory and organize the data as specified in the project structure.  
 The `main.py` script expects paths relative to this directory.
