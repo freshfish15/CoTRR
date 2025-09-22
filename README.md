@@ -48,7 +48,7 @@ CoTRR establishes a new state-of-the-art across five benchmark datasets and thre
 ```bash
 git clone [https://github.com/freshfish15/CoTRR.git](https://github.com/freshfish15/CoTRR.git)
 cd CoTRR
-
+```
 
 ## 2. Install Dependencies
 
@@ -65,7 +65,7 @@ pip install -r requirements.txt
 
 ## 3. Configure API Keys
 
-API keys and model configurations are located in `configs/config.py`. Replace the placeholder values with your credentials.  
+API keys and model configurations are located in `models/configs/config.py`. Replace the placeholder values with your credentials.  
 **Tip:** For security, use environment variables to manage sensitive keys.
 
 ## 4. Download Datasets
