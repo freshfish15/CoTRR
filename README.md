@@ -21,8 +21,6 @@ Extensive experiments on five datasets demonstrate the effectiveness of our CoTR
 
 The CoTRR framework operates as a second-stage re-ranking module that refines the initial candidate list provided by any standard retrieval model. The core of our method is a three-step Chain-of-Thought process executed by an MLLM.
 
-*Figure 1: The overall architecture of our CoTRR framework, which consists of three key components: query deconstruction, image evaluation, and listwise ranking.*
-
 1. **Query Deconstruction**: The initial user query (e.g., text for TIR, reference image and modification text for CIR) is decomposed into structured semantic components: *primary subject*, *activity*, *key details*, *environment*, and *ambiance*. This provides a fine-grained, interpretable representation of user intent.
 
 2. **Image Evaluation**: Each candidate image is assessed against the deconstructed query components. Instead of a simple binary judgment, the MLLM provides a detailed textual explanation and an overall qualitative judgment (e.g., "excellent match", "partial match"), offering rich, informative insights for ranking.
