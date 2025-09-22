@@ -1,4 +1,3 @@
-# main.py
 import argparse
 import multiprocessing
 import logging
