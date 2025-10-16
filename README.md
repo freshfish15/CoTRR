@@ -33,11 +33,11 @@ The CoTRR framework operates as a second-stage re-ranking module that refines th
 
 CoTRR establishes a new state-of-the-art across five benchmark datasets and three retrieval tasks.
 
-* [cite_start]**Composed Image Retrieval (CIR)**: On CIRR, CoTRR with a ViT-B/32 backbone achieves a **50.84%** R@1, an absolute improvement of **12.41%** over the strong ImageScope baseline. [cite: 145]
+* **Composed Image Retrieval (CIR)**: On CIRR, CoTRR with a ViT-B/32 backbone achieves a **50.84%** R@1, an absolute improvement of **12.41%** over the strong ImageScope baseline. [cite: 145]
 
-* [cite_start]**Text-to-Image Retrieval (TIR)**: On Flickr30K and MSCOCO, CoTRR consistently outperforms both the base CLIP model and ImageScope, achieving an average R@1 of **73.37%** with a ViT-L/14 backbone. [cite: 146]
+* **Text-to-Image Retrieval (TIR)**: On Flickr30K and MSCOCO, CoTRR consistently outperforms both the base CLIP model and ImageScope, achieving an average R@1 of **73.37%** with a ViT-L/14 backbone. [cite: 146]
 
-* [cite_start]**Chat-based Image Retrieval (Chat-IR)**: On VisDial, CoTRR significantly outperforms prior methods across all dialogue rounds, achieving a **10.56%** improvement in Hits@10 in the first round compared to ImageScope. [cite: 231]
+* **Chat-based Image Retrieval (Chat-IR)**: On VisDial, CoTRR significantly outperforms prior methods across all dialogue rounds, achieving a **10.56%** improvement in Hits@10 in the first round compared to ImageScope. [cite: 231]
 
 ---
 
