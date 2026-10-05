@@ -43,7 +43,7 @@ CoTRR establishes a new state-of-the-art across five benchmark datasets and thre
 
 ## 🧪 Result Validation
 
-You can validate our experiment results for CIRR by uploading the JSON file in the `our_results` directory to the official evaluation server: [https://cirr.cecs.anu.edu.au/test_process/](https://cirr.cecs.anu.edu.au/test_process/).
+You can validate our experiment results for CIRR by uploading the JSON file in the `our_results` directory to the official evaluation server: [https://cirr.zheyuanliu.me/evaluate](https://cirr.zheyuanliu.me/evaluate).
 
 ---
 
